@@ -9,11 +9,5 @@ def position_taken(board, index)
     end
     i = i + 1
   end
-  for element in board do
-    if element == nil || element == "X" || element == "O"
-      isTaken = false
-    end
-  end
-
   return isTaken
 end
